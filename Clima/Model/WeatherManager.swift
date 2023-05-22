@@ -15,7 +15,7 @@ protocol WeatherManagerDelegate {
 }
 
 struct WeatherManager {
-	let weatherURL = ApiKey().api
+	let weatherURL = ApiKey().api // I use api from this site https://openweathermap.org . In the project, you will need to replace let weatherURL = ApiKey().api with your api
 	
 	var delegate: WeatherManagerDelegate?
 	
